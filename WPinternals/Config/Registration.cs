@@ -33,7 +33,7 @@ namespace WPinternals.Config
         internal const bool IsPrerelease = false;
 #endif
         // Make sure timebomb never gets reached in reasonable amount of time
-        internal static readonly DateTime ExpirationDate = new(2028, 06, 09);
+        internal static readonly DateTime ExpirationDate = new(2028, 08, 09);
 
         internal static void CheckExpiration()
         {
